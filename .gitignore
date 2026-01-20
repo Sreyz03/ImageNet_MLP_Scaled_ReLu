@@ -1,0 +1,61 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+env/
+.venv/
+ENV/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# PyTorch / Model Artifacts
+# ===============================
+*.pt
+*.pth
+*.ckpt
+
+# ===============================
+# Dataset (ImageNet / large data)
+# ===============================
+data/
+dataset/
+imagenet/
+imagenet_subset/
+*.tar
+*.tar.gz
+*.zip
+
+# ===============================
+# Results / Logs (optional)
+# Uncomment if plots are regenerated
+# ===============================
+# logs/
+
+# ===============================
+# OS / Editor Files
+# ===============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ===============================
+# Misc
+# ===============================
+*.log
+*.tmp
